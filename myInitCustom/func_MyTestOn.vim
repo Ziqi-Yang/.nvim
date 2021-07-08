@@ -1,10 +1,3 @@
-" :vs term://go run %
-"
-"
-"
-" ==================== Functions ====================
-" =========vvvvvvvvvvvvvvvvvvvvvvvvvvvvv=============
-
 " let g:my_TestOn_absoluteTestFilesDir = '/home/zarkli/.config/nvim/testFiles/'
 let g:my_TestOn_absoluteTestFilesDir = '/tmp/' 
 let g:my_TestOn_goTestFileDir = '/home/zarkli/go/src/'
@@ -53,4 +46,3 @@ function! MY_TestOn()
     " echo g:my_TestOn_absoluteFileName
     exec "e" g:my_TestOn_absoluteFileName
 endfunction
-nnoremap <silent> <leader>rt :call MY_TestOn()<CR>
