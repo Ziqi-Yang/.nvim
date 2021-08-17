@@ -9,3 +9,9 @@ func! VIMRUN()
     exec "so %"
     exec "echo \"".expand("%")." has been sourced.\""
 endfunc
+
+func! HTMLRUN()
+    exec "w"
+    exec "echo \"[Starting Chrome Browser...]\""
+    exec "!google-chrome ".expand("%")
+endfunc
