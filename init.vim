@@ -215,6 +215,8 @@ let g:which_key_map.n = {
 
 
 
+
+
 " source custom nvim init files 
 " (don't use a loop or a function directly to source
 " files,or you will get error E127 --- literally lapsed into endless loop)
@@ -381,7 +383,7 @@ Plug 'luochen1990/rainbow'
 Plug 'preservim/nerdtree'
 Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
-Plug 'neoclide/coc.nvim', {'do': 'yarn install --frozen-lockfile'}
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'liuchengxu/vim-which-key'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'mhinz/vim-startify'

@@ -23,7 +23,7 @@ nnoremap <silent> <leader>rt :call MY_TestOn()<CR>
 " ex. word -> "word" / [word]
 nnoremap <leader>nn uu
 nnoremap <leader>n" viw<esc>a"<esc>hbi"<esc>lel
-nnoremap <leader>n' viw<esc>a'<esc>hbi'<esc>lel
+nnoremap <leader>n' viw<esc'>a'<esc>hbi'<esc>lel
 nnoremap <leader>n{ viw<esc>a}<esc>hbi{<esc>lel
 nnoremap <leader>n[ viw<esc>a]<esc>hbi[<esc>lel
 
